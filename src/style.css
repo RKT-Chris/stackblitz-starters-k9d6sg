@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2rem;
+}
+hr {
+  border-color: black;
+  width: 80%;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: #e9f8f9;
+}
+#header {
+  width: 100vw;
+  height: 10vh;
+  background: #181823;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+}
+#header * {
+  z-index: 1;
+}
+#PageTitle {
+  width: 35%;
+  position: relative;
+  bottom: 1rem;
+}
+#submenu {
+  right: 24vw;
+  width: 12vw;
+  padding: 0 2vw;
+  padding-top: 2vh;
+  height: 20vh;
+  position: absolute;
+  display: none;
+  background: #181823;
+  box-shadow: 0px 1px 5vmin #181823;
+  cursor: pointer;
+}
+.submenu {
+  margin-top: 1.5vh;
+}
+#tab2 {
+  cursor: auto;
+}
+#portfolio {
+  cursor: pointer;
+}
+#tabs {
+  position: relative;
+  top: 1rem;
+  width: 50%;
+  padding-right: 5vw;
+  justify-content: space-between;
+  display: flex;
+}
+main {
+  z-index: 0;
+  height: 70vh;
+  width: 80vw;
+  position: absolute;
+  right: 10vw;
+  top: 20vh;
+  background: #c0eef2;
+  box-shadow: 1px 1px 10vmin #999;
+  border-radius: 1vmin;
+  text-align: center;
+}
+.tab {
+  cursor: pointer;
+}
+#background {
+  position: fixed;
+  bottom: 0;
+  height: 20vh;
+  width: 100vw;
+  background: #c0eef2;
+}
+section.Home {
+  height: 80%;
+  padding: 3vh 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.pdp.Home {
+  height: 50vh;
+}
+article.Home {
+  display: flex;
+  flex-direction: column;
+}
+article.Home div.Home {
+  display: flex;
+  justify-content: space-between;
+  margin: 1vh 0;
+}
+footer {
+  height: 20%;
+  width: 100%;
+  background: #537fe7;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0 0 1vmin 1vmin;
+  color: white;
+}
+section {
+  height: 80%;
+}
+footer.Home a {
+  position: relative;
+  top: 2em;
+  font-weight: 500;
+}
+section.Skills {
+  padding: 5vmin;
+  padding-top: 0;
+  padding-right: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+section.Skills div span {
+  font-size: 2rem;
+}
+section.Skills article.Skills {
+  margin-right: 5vmin;
+}
+article.Exp {
+  display: flex;
+  justify-content: space-between;
+}
+section.Exp {
+  padding: 5vmin;
+}
+section.Exp * {
+  margin: 2.5vh auto;
+}
+article.Skills div.Skills {
+  margin: 2.5vh 0;
+}
+footer.Exp {
+  font-size: 2rem;
+  font-weight: 500;
+}
+span.property {
+  font-weight: 500;
+}
+section.Contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5vmin;
+}
+article.Contact {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+div.Contact {
+  display: flex;
+  justify-content: space-between;
+}
+footer.Contact {
+  font-weight: 500;
+  font-size: 2rem;
+}
+footer.CSS {
+  font-size: 2rem;
+  font-weight: 500;
+}
+main.Portfolio {
+  text-align: initial;
+}
+section.Portfolio {
+  padding: 5vmin;
+}
+article.Portfolio a {
+  color: black;
+}
